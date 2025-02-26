@@ -1,7 +1,6 @@
 import ReservationSidebar from "@/app/components/properties/ReservationSiderbar";
 import Image from "next/image";
 
-
 const PropertyDetailPage = () => {
     return (
         <main className="max-w-[1500px] mx-auto px-6 pb-6">
@@ -48,7 +47,6 @@ const PropertyDetailPage = () => {
                 </div>
             </div>
         </main>
-    )
+    );
 }
-
 export default PropertyDetailPage;
