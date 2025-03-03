@@ -3,11 +3,11 @@
 import Modal from "./Modal";
 
 import { useState } from "react";
-import useLoginModal from '../../hooks/useLoginModal';
 import CustomButton from '../forms/CustomButton';
+import useSignupModal from "@/app/hooks/useSignupModal";
 
-const LoginModal = () => {
-    const loginModal = useLoginModal()
+const SignupModal = () => {
+    const SignupModal = useSignupModal()
 
     const content = (
         <>
@@ -17,6 +17,8 @@ const LoginModal = () => {
                 <input placeholder="Your e-mail address" type="email" className="w-full h-[54px] px-4 border-gray-300 rounded-xl"/>
 
                 <input placeholder="Your password" type="email" className="w-full h-[54px] px-4 border-gray-300 rounded-xl"/>
+
+                <input placeholder="Repeat password" type="email" className="w-full h-[54px] px-4 border-gray-300 rounded-xl"/>
 
                 <div className="p-5 bg-airbnb text-white rounded-xl opacity-80">
                     The error message 
@@ -32,12 +34,12 @@ const LoginModal = () => {
 
     return (
         <Modal
-            isOpen={loginModal.isOpen}
-            close={loginModal.close}
-            label="Log in"
+            isOpen={SignupModal.isOpen}
+            close={SignupModal.close}
+            label="Sign up"
             content={content}
         />
     )
 }
 
-export default LoginModal;
+export default SignupModal;
