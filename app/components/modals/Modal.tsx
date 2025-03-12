@@ -49,7 +49,7 @@ const Modal: React.FC <ModalProps>= ({
                                 </svg>
                             </div>
 
-                            <h2 className=" text-lg font-bold">The  tittle</h2>
+                            <h2 className=" text-lg font-bold">{label}</h2>
                         </header>
 
                         <section className="p-6">

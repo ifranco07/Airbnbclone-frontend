@@ -49,8 +49,6 @@ const SignupModal = () => {
 
     const content = (
         <>
-            <h2 className="mb-6 text-2xl">Welcome to Airbnb Clone, please log in</h2>
-
             <form
                 action={submitSignup}
                 className="space-y-4"
