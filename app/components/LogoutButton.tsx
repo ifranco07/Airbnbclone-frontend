@@ -17,7 +17,7 @@ const LogoutButton: React.FC = () => {
 
     return (
         <MenuLink
-            label="Logout"
+            label="Log out"
             onClick={SubmitLogout}
         />
     )

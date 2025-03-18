@@ -6,7 +6,7 @@ import apiService from "@/app/services/apiService";
 
 export type PropertyType = {
     id: string;
-    tittle: string;
+    title: string;
     image_url: string;
     price_per_night: number;
 }

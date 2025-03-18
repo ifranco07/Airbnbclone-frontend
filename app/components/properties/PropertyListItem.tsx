@@ -20,7 +20,7 @@ const PropertyListItem: React.FC<PropertyProps> = ({
             </div>
 
             <div className="mt-2">
-                <p className="text-lg font-bold">{property.tittle}</p>
+                <p className="text-lg font-bold">{property.title}</p>
             </div>
 
             <div className="mt-2">
