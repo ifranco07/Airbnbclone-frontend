@@ -12,7 +12,7 @@ const ConversationDetail = () => {
                 </div>
 
                 <div className="w-[80%] ml-[20%] py-4 px-6 rounded-xl bg-blue-200">
-                    <p className="font-bold text-gray-500">Code With Stein</p>
+                    <p className="font-bold text-gray-500">Code With Nachis</p>
 
                     <p>hdshfhgjhe hhjfhjahfjhjfhj  jhefj </p>
                 </div>
