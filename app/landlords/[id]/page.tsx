@@ -1,4 +1,4 @@
-import ContactButton from "@/app/components/ContatctButton";
+import ContactButton from "@/app/components/ContactButton";
 import PropertyList from "@/app/components/properties/PropertyList";
 import { getUserId } from "@/app/lib/actions";
 import apiService from "@/app/services/apiService";
@@ -25,7 +25,10 @@ const LandlordDetailPage = async ({ params }: { params: { id: string }}) => {
                         <h1 className="mt-6 text-2xl">{landlord.name}</h1>
 
                         {userId != params.id && (
-                            <ContactButton />
+                            <ContactButton 
+                                userId={userId}
+                                landlordId={params.id}
+                            />
                         )}
                     </div>
                 </aside>

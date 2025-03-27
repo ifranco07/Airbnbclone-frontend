@@ -45,7 +45,7 @@ const PropertyDetailPage = async ({ params }: { params: { id: string } }) => {
                                 alt="User name"
                             />
                         )}
-                        <p><strong>{property.landlord.name}{property.landlord.avatar_url}</strong> is your host</p>
+                        <p><strong>{property.landlord.name}</strong> is your host</p>
                     </Link>
 
                     <hr />
